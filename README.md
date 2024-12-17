@@ -46,21 +46,21 @@ O presente trabalho tem como desafio a implementação de uma solução tecnoló
 
 ---
 
-## **Hardware Utilizado**
+## **Hardware**
 
 ### **PC**
-- Raspberry Pi 4 Model B
+- Raspberry Pi 4 Model B.
 
 ### **Microcontroladores**
-- ESP8266 e ESP32
-- Arduino UNO e MEGA 2560
+- ESP8266 e ESP32;
+- Arduino UNO e MEGA 2560.
 
 ### **Sensores**
-- DHT11 e DHT22
-- BME280
-- LDR
-- Sensor de Chuva (RAIN SENSOR)
-- NTC
+- DHT11 e DHT22;
+- BME280;
+- LDR;
+- Sensor de Chuva;
+- NTC.
 
 ---
 
@@ -77,7 +77,7 @@ A topologia **estrela** foi escolhida devido a:
 
 ## **Diagramas de Sequência**
 Os diagramas de sequência mostram dois tipos de comunicação: os dispositivos conectados aos **Arduinos** (funcionando como escravos) e os microcontroladores independentes.
-**0bservação: coloquei somente os dois diagramas, um para cada tipo de comunicação.
+**0bservação: somente os dois diagramas, um para cada tipo de comunicação.
 
 [Diagrama de sequencia com dispositivos dependentes](https://github.com/user-attachments/assets/30f69daa-9fe1-41c7-af6f-e77ece2f3546)
 
@@ -128,8 +128,8 @@ Este projeto utiliza bibliotecas e tecnologias **open-source** listadas abaixo, 
 ## **Trabalhos futuros**
 
 Como sugestão para trabalhos futuros, propõe-se:
-- Integração à Energy Harvesting: adaptação do sistema para o aproveitamento de fontes de energia renovável, como solar, eólica ou vibrações mecânicas, com o objetivo de alimentar dispositivos IoT.
-- Otimização de alcance: implementar protocolos de comunicação de baixa energia e alta eficiência, como LoRa.
+- Integração à Energy Harvesting: adaptação do sistema para o aproveitamento de fontes de energia renovável, como solar, eólica ou vibrações mecânicas, com o objetivo de alimentar dispositivos IoT;
+- Otimização de alcance: implementar protocolos de comunicação de baixa energia e alta eficiência, como Long-Range(LoRa);
 - Integração com Inteligência Artificial: incorporar algoritmos de aprendizado de máquina para melhorar a análise dos dados coletados, possibilitando previsões mais precisas e decisões mais assertivas.
 
 ---
