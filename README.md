@@ -135,5 +135,5 @@ Como sugestão para trabalhos futuros, propõe-se:
 ---
 
 ## **Vídeo - Apresentação do TCC**
-A execução do projeto pode ser acessada no link a seguir:
+O exemplo de execução remota do projeto pode ser acessada no link a seguir:
 [Apresentação do Projeto](https://drive.google.com/file/d/1AOXGchitQ8P0aQ9WHTfZ-_uaugCDxYjI/view?usp=sharing)
