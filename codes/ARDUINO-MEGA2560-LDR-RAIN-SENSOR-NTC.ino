@@ -1,3 +1,4 @@
+//códigos
 #include <math.h>
 
 // Configuração dos Sensores
