@@ -41,9 +41,8 @@ O presente trabalho tem como desafio a implementação de uma solução tecnoló
 3. **Servidor (Broker MQTT)**: Responsável por receber os dados encaminhados.
 4. **Organização de nós na rede**: O Node-RED gerencia a adção, exclusão e modificação dos nós do sistema.
 5. **Armazenamento e amostragem dos dados**: Os dados são armazenados no **InfluxDB**, possibilitando consultas baseadas no histórico.
-
-**Imagem do Fluxo** 
-[FluxogramaARQUITETURA-DO-SISTEMA](https://github.com/user-attachments/assets/352e5bbc-8622-484d-b9ad-52ec4ad3e492)
+ 
+[Imagem do comportamento do fluxo de dados](https://github.com/user-attachments/assets/352e5bbc-8622-484d-b9ad-52ec4ad3e492)
 
 ---
 
@@ -66,33 +65,37 @@ O presente trabalho tem como desafio a implementação de uma solução tecnoló
 ---
 
 ## **Topologia Estrela**
+
 A topologia **estrela** foi escolhida devido a:
 - Escalabilidade, permitindo a adção ou remoção de nós com facilidade;
 - Ampliação do alcance de monitoramento;
-- Praticidade na manutenção e redução de latência.
+- Praticidade na manutenção e redução de latência entre os dispositivos.
 
-**Imagem da Topologia** *(Adicionar aqui)*
+[ilustração da Topologia Estrela no projeto](https://github.com/user-attachments/assets/995c1783-eeab-4f9d-982f-daf1972c5bf7)
 
 ---
 
 ## **Diagramas de Sequência**
-Os diagramas de sequência mostram a comunicação entre os dispositivos conectados aos **Arduinos** (funcionando como escravos) e outros microcontroladores independentes.
+Os diagramas de sequência mostram dois tipos de comunicação: os dispositivos conectados aos **Arduinos** (funcionando como escravos) e os microcontroladores independentes.
+**0bservação: coloquei somente os dois diagramas, um para cada tipo de comunicação.
 
-**Imagem dos Diagramas** *(Adicionar aqui)*
+[Diagrama de sequencia com dispositivos dependentes](https://github.com/user-attachments/assets/30f69daa-9fe1-41c7-af6f-e77ece2f3546)
+
+[Diagrama de sequencia com dispositivo independente](https://github.com/user-attachments/assets/13f4ac0f-50b0-4414-9d64-fc0d460b47e4)
 
 ---
 
 ## **Exemplo de Nó no Node-RED**
 A imagem abaixo ilustra o fluxo do **ESP32** com o sensor **BME280** enviando dados para o **InfluxDB**.
 
-**Imagem do Nó** *(Adicionar aqui)*
+[Node-RED-fluxo-exemplo](https://github.com/user-attachments/assets/369123d3-0cca-4714-9390-7e1767309313)
 
 ---
 
 ## **Dashboard no Banco de Dados**
 A imagem a seguir mostra o relatório gerado no **InfluxDB** com base nos dados recebidos do Node-RED.
 
-**Imagem do Dashboard** *(Adicionar aqui)*
+[dados-relatorio-influxdb](https://github.com/user-attachments/assets/695d3fff-3f4a-4dff-b282-aadd20909dfc)
 
 ---
 
@@ -119,6 +122,15 @@ Este projeto utiliza bibliotecas e tecnologias **open-source** listadas abaixo, 
 
 - **Biblioteca síncrona**:
    - [PubSubClient (ESP8266, Arduino UNO e MEGA 2560)](https://github.com/knolleary/pubsubclient)
+
+---
+
+## **Trabalhos futuros**
+
+Como sugestão para trabalhos futuros, propõe-se:
+- Integração à Energy Harvesting: adaptação do sistema para o aproveitamento de fontes de energia renovável, como solar, eólica ou vibrações mecânicas, com o objetivo de alimentar dispositivos IoT.
+- Otimização de alcance: implementar protocolos de comunicação de baixa energia e alta eficiência, como LoRa.
+- Integração com Inteligência Artificial: incorporar algoritmos de aprendizado de máquina para melhorar a análise dos dados coletados, possibilitando previsões mais precisas e decisões mais assertivas.
 
 ---
 
