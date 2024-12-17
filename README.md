@@ -1,10 +1,9 @@
 # **Desenvolvimento de uma Rede de Sensores para Monitoramento Ambiental**
 
-## **Autor**
-Rafael Campos Almeida  
-**Orientador**: Prof. Dr. Talles Marcelo Gonçalves de Andrade Barbosa  
-**Universidade**: Pontifícia Universidade Católica de Goiás  
-**Trabalho de Conclusão de Curso**
+## **Autor**: Rafael Campos Almeida  
+## **Orientador**: Prof. Dr. Talles Marcelo Gonçalves de Andrade Barbosa  
+## **Universidade**: Pontifícia Universidade Católica de Goiás  
+## **Trabalho de Conclusão de Curso**
 
 ---
 
