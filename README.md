@@ -137,3 +137,10 @@ Como sugestão para trabalhos futuros, propõe-se:
 ## **Vídeo - Apresentação do TCC**
 O exemplo de execução remota do projeto pode ser acessada no link a seguir:
 [Apresentação do Projeto](https://drive.google.com/file/d/1AOXGchitQ8P0aQ9WHTfZ-_uaugCDxYjI/view?usp=sharing)
+
+---
+
+## **Slides MS Powerpoint - Apresentação do TCC**
+Os slides usados na apresentação estão no link seguinte:
+- [Apresentação TCC - 13-12-2024.pdf](https://github.com/user-attachments/files/18183626/Apresentacao.TCC.-.13-12-2024.pdf)
+- [Google Drive(com vídeos da implementação)](https://docs.google.com/presentation/d/1OoiNBTO4xguILLfA39K5EdtBodRy1bvH/edit?usp=sharing&ouid=118365570367346542020&rtpof=true&sd=true)
