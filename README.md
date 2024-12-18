@@ -141,6 +141,6 @@ O exemplo de execução remota do projeto pode ser acessada no link a seguir:
 ---
 
 ## **Slides MS Powerpoint - Apresentação do TCC**
-Os slides usados na apresentação estão no link seguinte:
+Os slides usados na apresentação estão nos seguintes links:
 - [Apresentação TCC - 13-12-2024.pdf](https://github.com/user-attachments/files/18183626/Apresentacao.TCC.-.13-12-2024.pdf)
 - [Google Drive(com vídeos da implementação)](https://docs.google.com/presentation/d/1OoiNBTO4xguILLfA39K5EdtBodRy1bvH/edit?usp=sharing&ouid=118365570367346542020&rtpof=true&sd=true)
